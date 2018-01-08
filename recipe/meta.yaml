@@ -5,6 +5,7 @@ package:
   version: {{ version }}
 
 build:
+  merge_build_host: True  # [win]
   number: 0
 
 requirements:
