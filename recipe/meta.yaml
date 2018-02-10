@@ -9,8 +9,10 @@ build:
   number: 0
 
 requirements:
+  build:
+    - r-base
   run:
-    - r-base {{ version }}
+    - r-base
     - r-boot
     - r-class
     - r-cluster
